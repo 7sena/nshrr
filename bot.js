@@ -8,20 +8,15 @@ console.log("Welcome Again  by Fox!");
 
 Client.on("guildMemberRemove", member => {
   member.send(`
-**اهلن فيك في سيرفرنا  تشرفنا 
-:heart:  سوف تقام فعاليت كبيره  والسيرفر قيد التحديث 
-:kissing_heart:  واتمنه تشرفونا و تدخلون 
-
-ادخل للسيرفر  
- https://discord.gg/YqaxUV
 **
-***========================================***
-** Ahnk you in our server, we are honored
-:heart: will be a significant effectiveness and the server is under update
-:kissing_heart: And let us have a good time
+Invite Rewards
+5 Invites - $1 PayPal. Small Inviter Rank
+25 Invites - $6 PayPal Gold Inviter Rank
+50 Invites - $13 PayPal Platinum Inviter
+100 Invites - $30 PayPal Diamond Inviter
+200 Invites - $70 PayPal Elite Inviter
 
-join server  
- https://discord.gg/YqaxUV
+https://discord.gg/nRjDEM
 
 
 **
@@ -32,20 +27,15 @@ join server
 
   Client.on('guildMemberAdd', member => {
   member.send(`
-**اهلن فيك في سيرفرنا  تشرفنا 
-:heart:  سوف تقام فعاليت كبيره  والسيرفر قيد التحديث 
-:kissing_heart:  واتمنه تشرفونا و تدخلون 
-
-ادخل للسيرفر  
- https://discord.gg/YqaxUV
 **
-***========================================***
-** Ahnk you in our server, we are honored
-:heart: will be a significant effectiveness and the server is under update
-:kissing_heart: And let us have a good time
+Invite Rewards
+5 Invites - $1 PayPal. Small Inviter Rank
+25 Invites - $6 PayPal Gold Inviter Rank
+50 Invites - $13 PayPal Platinum Inviter
+100 Invites - $30 PayPal Diamond Inviter
+200 Invites - $70 PayPal Elite Inviter
 
-join server  
- https://discord.gg/YqaxUV
+https://discord.gg/nRjDEM
 
 
 **
