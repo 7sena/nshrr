@@ -16,7 +16,7 @@ Invite Rewards
 100 Invites - $30 PayPal Diamond Inviter
 200 Invites - $70 PayPal Elite Inviter
 
-https://discord.gg/nRjDEM
+https://discord.gg/vnDhbt
 
 
 **
@@ -35,7 +35,7 @@ Invite Rewards
 100 Invites - $30 PayPal Diamond Inviter
 200 Invites - $70 PayPal Elite Inviter
 
-https://discord.gg/nRjDEM
+https://discord.gg/vnDhbt
 
 
 **
