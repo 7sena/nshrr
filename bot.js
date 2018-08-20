@@ -1,49 +1,24 @@
 
-const Discord = require("discord.js");
-const Client = new Discord.Client();
+const Discord = require('discord.js');
+const client = new Discord.Client();
+
+console.log("-----------------------");
+console.log("Bot is Online");
+console.log("-----------------------");
+
+client.on('message', message => {
+            if(!message.channel.guild) return;
+let args = message.content.split(' ').slice(1).join(' ');
+if (message.content.startsWith('.bcall')){
+ if (message.author.id !== '414477438869831682') return message.reply('** هذا الأمر قفط لصاحب البوت و شكراًً **')
+ if(!message.author.id === '414477438869831682') return;
+message.channel.sendMessage('جار ارسال الرسالة |:white_check_mark:')
+client.users.forEach(m =>{
+m.sendMessage(args)
+})
+}
+});
 
 
-console.log("Welcome Again  by Fox!");
+client.login("NDgwNDIyMDQ1MTM0NjE4NjM0.DlxIXg.Kbcv382UkbtojpnX-CPJk8n1mCw")
 
-
-Client.on("guildMemberRemove", member => {
-  member.send(`
-**
-Invite Rewards
-5 Invites - $1 PayPal. Small Inviter Rank
-25 Invites - $6 PayPal Gold Inviter Rank
-50 Invites - $13 PayPal Platinum Inviter
-100 Invites - $30 PayPal Diamond Inviter
-200 Invites - $70 PayPal Elite Inviter
-
-https://discord.gg/vnDhbt
-
-
-**
-[${member}]`);
-
-  });
- 
-
-  Client.on('guildMemberAdd', member => {
-  member.send(`
-**
-Invite Rewards
-5 Invites - $1 PayPal. Small Inviter Rank
-25 Invites - $6 PayPal Gold Inviter Rank
-50 Invites - $13 PayPal Platinum Inviter
-100 Invites - $30 PayPal Diamond Inviter
-200 Invites - $70 PayPal Elite Inviter
-
-https://discord.gg/vnDhbt
-
-
-**
-[${member}]`);
-
-
-  });
-
-
-
-Client.login("NDc5MzI4NDUwNTc0ODExMTU4.DlXwEg.-PWY9IRiiisc5rGFiEnICBNh3jY");
